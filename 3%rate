@@ -1,0 +1,14 @@
+#1)How much would the monthly payment be for a 30 year mortgage (30 * 12 = 360 month term) 
+#with a 400,000 dollar principal and a 3% APR (interest rate with fees included)? 
+
+#P=Principle (amount paid), R= intrest rate / 12, N= term (number of payments)
+
+p= 400000
+r= 0.03/12
+n= 360
+
+#EMI =
+p * ((r*(1+r)**(n)) / ((1+r)**(n)-1)) 
+
+
+#Monthly payment would be $1686.42
